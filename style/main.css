@@ -1,0 +1,187 @@
+* {
+  font-family: var(--fontMain);
+  font-size: 16px;
+}
+
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--titleColor);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input,
+textarea,
+button,
+select {
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+:root {
+  --textColor: rgba(30, 30, 30, 1);
+  --titleColor: rgba(255, 255, 255, 1);
+  --mainBgc: rgba(247, 247, 247, 1);
+  --arrowColor: rgba(229, 132, 17, 1);
+  --footerColor: rgba(45, 47, 51, 1);
+  --fontMain: "Lato", sans-serif;
+}
+
+.header {
+  background-image: url(".././img/headerBgc/headerBgc.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 200vh;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.nav__logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+.nav__list {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+.nav__link {
+  font-size: 18px;
+}
+
+.title {
+  padding-top: 80px;
+  text-align: center;
+  color: var(--titleColor);
+}
+.title__h1 {
+  font-size: 80px;
+  margin: 0 auto;
+  max-width: 890px;
+}
+.title p {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.search {
+  position: relative;
+  margin-top: 60px;
+}
+.search__input {
+  width: 340px;
+  height: 60px;
+  border: 1px solid var(--titleColor);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.search__input::-moz-placeholder {
+  margin-left: 20px;
+}
+.search__input::placeholder {
+  margin-left: 20px;
+}
+.search__btn {
+  position: absolute;
+  padding: 15px;
+  margin: 1px;
+  border-radius: 28px;
+  background-color: rgb(229, 132, 17);
+  left: 60%;
+  top: 14px;
+}/*# sourceMappingURL=main.css.map */

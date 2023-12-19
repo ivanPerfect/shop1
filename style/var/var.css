@@ -1,0 +1,8 @@
+:root {
+  --textColor: rgba(30, 30, 30, 1);
+  --titleColor: rgba(255, 255, 255, 1);
+  --mainBgc: rgba(247, 247, 247, 1);
+  --arrowColor: rgba(229, 132, 17, 1);
+  --footerColor: rgba(45, 47, 51, 1);
+  --fontMain: "Lato", sans-serif;
+}/*# sourceMappingURL=var.css.map */
