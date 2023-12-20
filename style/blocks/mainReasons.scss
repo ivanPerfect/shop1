@@ -1,0 +1,26 @@
+.reason {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 100px;
+  align-items: center;
+  &__h1 {
+    margin-right: 20px;
+  }
+  &__title {
+    font-size: 60px;
+    width: 340px;
+  }
+  &__item h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  &__item p{
+    line-height: 2.5;
+    margin-bottom: 20px;
+  }
+  &__item button{
+    color: var(--arrowColor);
+  }
+}
