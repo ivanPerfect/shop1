@@ -103,6 +103,7 @@ legend {
   --titleColor: rgba(255, 255, 255, 1);
   --mainBgc: rgba(247, 247, 247, 1);
   --arrowColor: rgba(229, 132, 17, 1);
+  --productsBgc: rgba(247, 247, 247, 1);
   --footerColor: rgba(45, 47, 51, 1);
   --fontMain: "Lato", sans-serif;
 }
@@ -211,4 +212,28 @@ legend {
 }
 .reason__item button {
   color: var(--arrowColor);
+}
+
+.products {
+  background-color: var(--productsBgc);
+}
+.products__title {
+  font-size: 42px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+.products__title h1 {
+  font-size: 50px;
+}
+.products__tabs {
+  text-align: center;
+  margin: 0 auto;
+}
+.products__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
